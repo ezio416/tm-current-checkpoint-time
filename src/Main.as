@@ -113,8 +113,8 @@ void Render() {
 
     const vec2 size = nvg::TextBounds(text);
 
-    const float posX = Draw::GetWidth() * S_X;
-    const float posY = Draw::GetHeight() * S_Y;
+    const float posX = Display::GetWidth() * S_X;
+    const float posY = Display::GetHeight() * S_Y;
 
     if (S_Background) {
         nvg::FillColor(S_BackgroundColor);
