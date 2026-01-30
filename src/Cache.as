@@ -1,6 +1,3 @@
-// c 2024-04-01
-// m 2024-04-08
-
 void CacheLocalLogin() {
     while (true) {
         sleep(101);

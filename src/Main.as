@@ -1,6 +1,3 @@
-// c 2024-03-03
-// m 2024-05-06
-
 uint         currentRespawns = 0;
 int          lastCpCount     = 0;
 uint         lastRespawns    = 0;
