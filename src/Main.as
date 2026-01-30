@@ -51,6 +51,8 @@ void Render() {
         or Playground.UIConfigs.Length == 0
         or Playground.UIConfigs[0] is null
         or Playground.UIConfigs[0].UISequence != CGamePlaygroundUIConfig::EUISequence::Playing
+        or App.Network.PlaygroundClientScriptAPI is null
+        or App.Network.PlaygroundClientScriptAPI.IsInGameMenuDisplayed
     ) {
         return;
     }
