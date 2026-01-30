@@ -6,4 +6,4 @@ version = "1.2.0"
 siteid = 516
 
 [script]
-dependencies = [ "VehicleState", "MLFeedRaceData", "MLHook" ]
+dependencies = [ "VehicleState", "MLFeedRaceData" ]
