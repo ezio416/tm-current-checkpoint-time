@@ -17,8 +17,9 @@ void ChangeFont() {
         default: break;
     }
 
-    if (f > 1)
+    if (f > 1) {
         font = f;
+    }
 
     currentFont = S_Font;
 }
